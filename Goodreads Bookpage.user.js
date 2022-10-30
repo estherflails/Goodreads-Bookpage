@@ -36,7 +36,7 @@ console.debug('[Goodreads Bookpage] Start');
   position: relative !important;
 }
 .BookPage .BookPage__bookCover {
-  width: 65%;
+  width: 70%;
 }
 .BookActions {
   width: 70%;
