@@ -9,6 +9,7 @@ This UserScript aims to bring a better experience to the new Goodreads Bookpage 
   - Lists featuring this book
   - Book details and editions (This one appears at around the first review to make sure the other sections have enough space even if they don't appear for every book.)
 - Resizes and repositions most elements
+- Adds a light background color
 
 ## What it doesn't do
 - Brings "Read Less" back for description and reviews
