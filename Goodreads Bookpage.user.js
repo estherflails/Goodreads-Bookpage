@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        Goodreads Bookpage
-// @description This UserScript aims to bring a better experience to the new Goodreads Bookpage by resizing and repositioning the elements on the page. Based on tripu's Wider Goodreads
+// @description This UserScript aims to bring a better experience to the new Goodreads Bookpage by resizing and repositioning the elements on the page. Based on tripu's Wider Goodreads.
 // @namespace   -
-// @version     0.3
+// @version     0.4
 // @match       https://goodreads.com/book/*
 // @match       https://www.goodreads.com/book/*
 // @license     MIT
@@ -223,6 +223,10 @@ console.debug('[Goodreads Bookpage] Start');
 }
 .Text__h3 {
   font-size: 1.2rem;
+}
+.CollectionCard__bookCover {
+  min-width: 2.2rem;
+  margin-right: 0.5rem;
 }
             `;
             head.appendChild(style);
