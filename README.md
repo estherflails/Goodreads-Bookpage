@@ -1,6 +1,8 @@
 # Goodreads-Bookpage
 This UserScript aims to bring a better experience to the new Goodreads Bookpage by resizing and repositioning the elements on the page.
 
+[Greasyfork Link](https://greasyfork.org/en/scripts/453992-goodreads-bookpage)
+
 ## What it does
 - Moves these sections to the right side:
   - Readers also enjoyed
