@@ -1,14 +1,13 @@
 // ==UserScript==
 // @name        Goodreads Bookpage
-// @description This UserScript aims to bring a better experience to the new Goodreads Bookpage by resizing and repositioning many elements on the page.
+// @description This UserScript aims to bring a better experience to the new Goodreads Bookpage by resizing and repositioning the elements on the page. Based on tripu's Wider Goodreads
 // @namespace   -
-// @version     0.2
-// @include     https://goodreads.com/book/*
-// @include     https://www.goodreads.com/book/*
+// @version     0.3
+// @match       https://goodreads.com/book/*
+// @match       https://www.goodreads.com/book/*
 // @license     MIT
 // @supportURL  -
 // @author      Estherflails
-// @credits     Based on tripu's Wider Goodreads!
 // ==/UserScript==
 
 console.debug('[Goodreads Bookpage] Start');
@@ -93,7 +92,6 @@ console.debug('[Goodreads Bookpage] Start');
 
 .Text__title2 {
   font-size: 1.7rem;
-//  transform:translate(-26%, 0%);
 }
 .MyReviewCardCarousel__header {
   margin-bottom: 1rem;
@@ -103,21 +101,13 @@ console.debug('[Goodreads Bookpage] Start');
 }
 .MyReviewCardCarousel {
   margin-top: 0rem;
-//  width:70%;
-//  transform:translate(-35%, 0%);
 }
-.MyReviewCard .WriteReviewCTA {
-//  transform:translate(4%, 0%);
-}
-
 .WriteReviewCTA__hero {
   width: 70%;
   margin-bottom: 0rem;
 }
 .WriteReviewCTA__message--leftAligned {
   font-size:1.6rem;
-//  text-align: center;
-//  transform:translate(26%, 2%);
 }
 .MyReviewCard__row {
   justify-content: left;
@@ -133,7 +123,6 @@ console.debug('[Goodreads Bookpage] Start');
 
 .WriteReviewCTA {
   padding: 0rem 0;
-//  transform:translate(-35%, 0%);
 }
 .WriteReviewCTA__message {
   font-size: 1.6rem;
@@ -150,12 +139,6 @@ console.debug('[Goodreads Bookpage] Start');
   padding: 10px;
   width: 130%;
 }
-.ReviewsSection__listHeader {
-//  transform:translate(-26%, 0%);
-}
-.ReviewsSectionStatistics {
-//  transform:translate(-25%, 0%);
-}
 .ReviewsSectionStatistics__histogram {
   width: 50%;
 }
@@ -165,12 +148,10 @@ console.debug('[Goodreads Bookpage] Start');
 }
 .ReviewFilters__filterControl {
   width: 100%;
-//  transform:translate(-32%, 0%);
 }
 
 
 .ReviewsList {
-//  transform:translate(-40%, 0%);
   width: 80%
 }
 .TruncatedContent__gradientOverlay {
