@@ -22,7 +22,7 @@ If you still find the page contents too large, I recommend changing the browser 
 ## Known issues
 - In a smaller browser size, elements might partially disappear or overlap each other.
 
-Changelog
+## Changelog
 0.5 - Changed the position of "Ratings & Reviews" title so it does not overlap in books that have no summary or author info.
 
 0.6 - Updated to work even if Goodreads includes the language in the url.
