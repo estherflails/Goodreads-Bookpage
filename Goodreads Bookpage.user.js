@@ -2,9 +2,9 @@
 // @name        Goodreads Bookpage
 // @description This UserScript aims to bring a better experience to the new Goodreads Bookpage by resizing and repositioning the elements on the page. Based on tripu's Wider Goodreads.
 // @namespace   https://greasyfork.org/en/scripts/453992-goodreads-bookpage
-// @version     0.6
-// @match       https://goodreads.com/*/book/*
-// @match       https://www.goodreads.com/*/book/*
+// @version     0.7
+// @match       https://goodreads.com/*book/*
+// @match       https://www.goodreads.com/*book/*
 // @license     MIT
 // @supportURL  -
 // @author      Estherflails
