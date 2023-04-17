@@ -27,5 +27,7 @@ If you still find the page contents too large, I recommend changing the browser 
 
 0.6 - Updated to work even if Goodreads includes the language in the url.
 
+0.7 - URL fix
+
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/23014105/198884618-d9f93551-98ef-46f3-bb06-63c3b97a13a6.png)
